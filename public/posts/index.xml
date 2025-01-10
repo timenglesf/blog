@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Tim Engle Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Tim Engle Blog</description>
+    <image>
+      <title>Tim Engle Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2025 18:17:38 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Day at Hacker Dojo</title>
+      <link>http://localhost:1313/posts/first-day-at-hacker-dojo/</link>
+      <pubDate>Thu, 09 Jan 2025 18:17:38 -0800</pubDate>
+      <guid>http://localhost:1313/posts/first-day-at-hacker-dojo/</guid>
+      <description>&lt;p&gt;While on my journey to get my first full time in the tech industry I have decided
+to move back in with my father who has just retired. He has tons of free time on his hands
+which he uses to spend time on his hobby of taking care of fish. He has so many fish tanks
+that I now literally &lt;strong&gt;SLEEPING WITH THE FISHES&lt;/strong&gt;. While it is great to be home
+and see that my father is enjoying his deserved retirement, his enthusiasm for
+taking care of the fish can be pretty distracting while I am trying to study for
+certifications and work on projects. In order to be in a more productive environment
+for my studies I have decided to join a local co-working space called Hacker Dojo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Simple Guide to Name Resolution</title>
+      <link>http://localhost:1313/posts/a-simple-guide-to-name-resolution/</link>
+      <pubDate>Thu, 19 Sep 2024 21:10:21 -0800</pubDate>
+      <guid>http://localhost:1313/posts/a-simple-guide-to-name-resolution/</guid>
+      <description>&lt;p&gt;Network management requires machines to be able to communicate efficiently, and
+one of the simplest ways to achieve this is via domain names. But how does a
+machine know where to send traffic for any particular domain name?
+Without proper name resolution, communication becomes challenging—at best
+requiring humans to memorize IP addresses, and at worst causing a complete
+communication failure. By the end of this article, you will know how to
+configure name resolution on a Linux machine and ensure seamless
+communication across your network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuous Deployment: Getting Started with CD for Containerized Go Apps Using GitHub Actions &amp; GCP</title>
+      <link>http://localhost:1313/posts/continuous-deployment-1/</link>
+      <pubDate>Wed, 14 Aug 2024 22:06:02 -0800</pubDate>
+      <guid>http://localhost:1313/posts/continuous-deployment-1/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-this-series&#34;&gt;Introduction to This Series&lt;/h1&gt;
+&lt;p&gt;This post serves as an introduction to this series on creating a CD pipeline
+for containerized Go apps using GitHub Actions and GCP.&lt;/p&gt;
+&lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
+&lt;p&gt;Currently this blog is ready to host, but still needs some features that
+I would like to add in order for it to make it more engaging for user, easier
+for my to add posts, simpler to update posts, and add the ability to view
+metrics on posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
