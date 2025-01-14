@@ -2,37 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Tim Engle Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://timengle.dev/posts/</link>
     <description>Recent content in Posts on Tim Engle Blog</description>
     <image>
       <title>Tim Engle Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://timengle.dev/img/card.webp</url>
+      <link>https://timengle.dev/img/card.webp</link>
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jan 2025 08:51:24 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://timengle.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a K3s Cluster Using EC2</title>
-      <link>http://localhost:1313/posts/creating-a-k3s-cluster-using-ec2/</link>
+      <link>https://timengle.dev/posts/creating-a-k3s-cluster-using-ec2/</link>
       <pubDate>Mon, 13 Jan 2025 08:51:24 -0800</pubDate>
-      <guid>http://localhost:1313/posts/creating-a-k3s-cluster-using-ec2/</guid>
+      <guid>https://timengle.dev/posts/creating-a-k3s-cluster-using-ec2/</guid>
       <description>&lt;p&gt;As part of my preparation for the GitHub Actions certification, I’ve been
 itching to get some hands-on experience deploying to a Kubernetes cluster.
-I have one requirement, the thing—I don’t need the cluster running all the time.
+I have one requirement, I do not need the cluster running all the time.
 Leaving it idle would just rack up unnecessary costs. My solution?
-A cloud computer I can easily spin up and down as needed.&lt;/p&gt;
+A cloud computer I can use as a controlplane node which I can easily spin up
+and down as needed.&lt;/p&gt;
 &lt;p&gt;After doing some research, I decided to go with k3s. It’s lightweight,
 simple to use, and perfectly suited for my needs. For hosting, I chose
 AWS EC2 because I’m already familiar with it, and it offers a straightforward
-experience. Plus, with AWS, I can keep things flexible and under budget.&lt;/p&gt;</description>
+experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Day at Hacker Dojo</title>
-      <link>http://localhost:1313/posts/first-day-at-hacker-dojo/</link>
+      <link>https://timengle.dev/posts/first-day-at-hacker-dojo/</link>
       <pubDate>Thu, 09 Jan 2025 21:08:38 -0800</pubDate>
-      <guid>http://localhost:1313/posts/first-day-at-hacker-dojo/</guid>
+      <guid>https://timengle.dev/posts/first-day-at-hacker-dojo/</guid>
       <description>&lt;p&gt;While on my journey to land my first full-time job in the tech industry,
 I have decided to move back in with my father, who has just retired,
 to save some money in case I need to relocate. He has tons of
@@ -41,9 +42,9 @@ He has so many fish tanks that I am now literally &lt;strong&gt;SLEEPING WITH TH
     </item>
     <item>
       <title>A Simple Guide to Name Resolution</title>
-      <link>http://localhost:1313/posts/a-simple-guide-to-name-resolution/</link>
+      <link>https://timengle.dev/posts/a-simple-guide-to-name-resolution/</link>
       <pubDate>Thu, 19 Sep 2024 21:10:21 -0800</pubDate>
-      <guid>http://localhost:1313/posts/a-simple-guide-to-name-resolution/</guid>
+      <guid>https://timengle.dev/posts/a-simple-guide-to-name-resolution/</guid>
       <description>&lt;p&gt;Network management requires machines to be able to communicate efficiently, and
 one of the simplest ways to achieve this is via domain names. But how does a
 machine know where to send traffic for any particular domain name?
@@ -54,18 +55,14 @@ configure name resolution on a Linux machine and ensure seamless
 communication across your network.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Continuous Deployment: Getting Started with CD for Containerized Go Apps Using GitHub Actions &amp; GCP</title>
-      <link>http://localhost:1313/posts/continuous-deployment-1/</link>
-      <pubDate>Wed, 14 Aug 2024 22:06:02 -0800</pubDate>
-      <guid>http://localhost:1313/posts/continuous-deployment-1/</guid>
-      <description>&lt;h1 id=&#34;introduction-to-this-series&#34;&gt;Introduction to This Series&lt;/h1&gt;
-&lt;p&gt;This post serves as an introduction to this series on creating a CD pipeline
-for containerized Go apps using GitHub Actions and GCP.&lt;/p&gt;
-&lt;h2 id=&#34;the-goal&#34;&gt;The Goal&lt;/h2&gt;
-&lt;p&gt;Currently this blog is ready to host, but still needs some features that
-I would like to add in order for it to make it more engaging for user, easier
-for my to add posts, simpler to update posts, and add the ability to view
-metrics on posts.&lt;/p&gt;</description>
+      <title>Dynamic File Serving With Embedded File System and Object Storage in Go File Serving With Embedded File System and Object Storage in Go</title>
+      <link>https://timengle.dev/posts/dynamic-file-serving-with-embedded-file-system-and-object-storage-in-go-file-serving-with-embedded-file-system-and-object-storage-in-go/</link>
+      <pubDate>Wed, 14 Aug 2024 20:36:36 -0800</pubDate>
+      <guid>https://timengle.dev/posts/dynamic-file-serving-with-embedded-file-system-and-object-storage-in-go-file-serving-with-embedded-file-system-and-object-storage-in-go/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The references to a blog in this post are for my older blog that was built from
+scratch using Go. My new blog is built using Hugo and the Papermod.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In my current project, this blog, I have a folder of static files embedded directly into the server’s binary. While this is nice to have, I am concerned with scaling, so I would also like to keep these static files in an object storage container like an S3 bucket.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

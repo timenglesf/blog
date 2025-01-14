@@ -4,7 +4,10 @@ draft: true
 title: "Continuous Deployment: Getting Started with CD for Containerized Go Apps Using GitHub Actions & GCP"
 ---
 
-# Introduction to This Series
+## Introduction to This Series
+
+*The references to a blog in this post are for my older blog that was built from
+scratch using Go. My new blog is built using Hugo and the Papermod.*
 
 This post serves as an introduction to this series on creating a CD pipeline
 for containerized Go apps using GitHub Actions and GCP.
