@@ -1,6 +1,6 @@
 ---
 date: '2024-08-22T17:44:14-08:00'
-draft: true
+draft: false 
 title: 'Continuous  Deployment: Creating a GitHub Workflow, Build Script, and Dockerfile'
 ---
 
