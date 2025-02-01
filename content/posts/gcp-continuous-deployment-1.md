@@ -1,6 +1,6 @@
 ---
 date: "2024-08-14T22:06:02-08:00"
-draft: true
+draft: false 
 title: "Continuous Deployment: Getting Started with CD for Containerized Go Apps Using GitHub Actions & GCP"
 ---
 

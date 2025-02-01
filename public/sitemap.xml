@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://timengle.dev/posts/creating-a-k3s-cluster-using-ec2/</loc>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-01T11:04:04-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-01T11:04:04-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/understanding_systemd_targets/</loc>
+    <lastmod>2025-02-01T11:04:04-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/creating-a-k3s-cluster-using-ec2/</loc>
     <lastmod>2025-01-13T08:51:24-08:00</lastmod>
   </url><url>
-    <loc>https://timengle.dev/posts/</loc>
-    <lastmod>2025-01-13T08:51:24-08:00</lastmod>
-  </url><url>
-    <loc>https://timengle.dev/</loc>
-    <lastmod>2025-01-13T08:51:24-08:00</lastmod>
-  </url><url>
-    <loc>https://timengle.dev/posts/first-day-at-hacker-dojo/</loc>
+    <loc>http://localhost:1313/posts/first-day-at-hacker-dojo/</loc>
     <lastmod>2025-01-09T21:08:38-08:00</lastmod>
   </url><url>
-    <loc>https://timengle.dev/posts/a-simple-guide-to-name-resolution/</loc>
+    <loc>http://localhost:1313/posts/a-simple-guide-to-name-resolution/</loc>
     <lastmod>2024-09-19T21:10:21-08:00</lastmod>
   </url><url>
-    <loc>https://timengle.dev/posts/dynamic-file-serving-with-embedded-file-system-and-object-storage-in-go-file-serving-with-embedded-file-system-and-object-storage-in-go/</loc>
+    <loc>http://localhost:1313/posts/gcp-continuous-deployment-3/</loc>
+    <lastmod>2024-08-26T17:47:11-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/gcp-continuous-deployment-2/</loc>
+    <lastmod>2024-08-22T17:44:14-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/gcp-continuous-deployment-1/</loc>
+    <lastmod>2024-08-14T22:06:02-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dynamic-file-serving-with-embedded-file-system-and-object-storage-in-go-file-serving-with-embedded-file-system-and-object-storage-in-go/</loc>
     <lastmod>2024-08-14T20:36:36-08:00</lastmod>
   </url><url>
-    <loc>https://timengle.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://timengle.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
