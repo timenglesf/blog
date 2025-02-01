@@ -14,19 +14,20 @@
     <lastBuildDate>Sat, 01 Feb 2025 11:04:04 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Understanding_systemd_targets</title>
+      <title>Understanding systemd Targets</title>
       <link>http://localhost:1313/posts/understanding_systemd_targets/</link>
       <pubDate>Sat, 01 Feb 2025 11:04:04 -0800</pubDate>
       <guid>http://localhost:1313/posts/understanding_systemd_targets/</guid>
-      <description>&lt;p&gt;Linux machines need to boot up many processes in a specific order to start the
-machine in the graphical login page.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;/img/systemd_graphical_login.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/systemd_graphical_login.png&#34;&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Linux machines need to boot up many processes in a specific order to start the
 machine in the graphical interface. This process is managed by &lt;code&gt;systemd&lt;/code&gt;, the
-system and service manager for many Linux distributions. &lt;code&gt;systemd&lt;/code&gt; determines
-which processes to start in which order by following the directions within in
-systemd target files. When an Ubuntu machine boots up it searches for its
-default systemd target file and executes the instructions within it.&lt;/p&gt;</description>
+system and service manager for many Linux distributions.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Login screen for the graphical systemd target&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/systemd_graphical_login.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-are-systemd-targets&#34;&gt;What are &lt;code&gt;systemd&lt;/code&gt; targets?&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;systemd&lt;/code&gt; determine swhich processes to start in which order by following the
+directions within in systemd target files. When an Ubuntu machine boots up it
+starts executing &lt;code&gt;default.target&lt;/code&gt; systemd target file which is a symbolic link
+to a specific target file then executes the instructions within it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating a K3s Cluster Using EC2</title>

@@ -12,7 +12,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+services:
+  googleAnalytics:
+    id: G-FS6MC4ZS4L
 
 minify:
   disableXML: true
@@ -22,7 +24,8 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   # title: Tim Engle Blog
   # description: "A blog on tech related topics"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords:
+    [Blog, Portfolio, software, developer, devops, linux, Kubernetes, PaperMod]
   author: Tim Engle
   # author: ["Me", "You"] # multiple authors
   images: ["/img/card.webp"]
@@ -80,7 +83,7 @@ params:
     Title: "Hello, I'm Tim! \U0001F44B"
     Content: |
       Welcome to my blog. This is a place where I will be sharing my writings on topics related to
-      DevOps, Kubernetes, Go, cloud, Linux, as well as bicycle maintenance and touring.
+      DevOps, Kubernetes, Go, Cloud, Linux, as well as bicycle maintenance and touring.
 
   socialIcons:
     - name: x
@@ -94,7 +97,7 @@ params:
 
   # analytics:
   #   google:
-  #     SiteVerificationTag: "XYZabc"
+  #     SiteVerificationTag: "G-FS6MC4ZS4L"
   #   bing:
   #     SiteVerificationTag: "XYZabc"
   #   yandex:

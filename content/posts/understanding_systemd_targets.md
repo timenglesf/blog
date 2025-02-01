@@ -76,7 +76,7 @@ again be in the text based user interface.
   and you loaded in as the root user in the shell. It is useful for creating
   DB backups while not connected to a network and fixing settings.
 
-  ## Conclusion
+## Conclusion
 
 Understanding systemd targets is important for managing a Linux systems.
 Whether troubleshooting, optimizing boot performance, or configuring a
