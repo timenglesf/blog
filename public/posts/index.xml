@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 11:04:04 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 19:13:55 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backgrounding Commands</title>
+      <link>http://localhost:1313/posts/backgrounding-commands/</link>
+      <pubDate>Wed, 05 Feb 2025 19:13:55 -0800</pubDate>
+      <guid>http://localhost:1313/posts/backgrounding-commands/</guid>
+      <description>&lt;p&gt;When working in Linux&amp;rsquo;s terminal you do not always want to wait for a command to
+finish executing before continuing to work on the command line. In order to
+overcome this block background jobs can be used. In order to have a command run
+in the background, the &lt;code&gt;&amp;amp;&lt;/code&gt; symbol can be appended to the command and you will
+arrive back at your prompt while the command runs in the background. This post
+will be a quick guide on how to start, manage, and move jobs from the background
+and foreground.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Understanding systemd Targets</title>
       <link>http://localhost:1313/posts/understanding_systemd_targets/</link>
